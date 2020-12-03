@@ -164,4 +164,15 @@ def player_numbers(team_numbers)
       return value[:players].map {|n|n[:number]}
     end
   end
+  
+end
+
+def player_stats(players_name)
+  games_hash.each do|a,b|
+    b[:plyaers].each do |a2|
+      if a2[:players_name] == players_name
+        return a2
+      end
+    end
+  end
 end
