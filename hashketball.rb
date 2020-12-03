@@ -154,6 +154,6 @@ end
 
 def team_name
  game_hash.map do|key,value|
-   return value[:team_name]
+    value[:team_name]
 end
 end
