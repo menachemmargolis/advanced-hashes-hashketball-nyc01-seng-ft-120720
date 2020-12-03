@@ -126,7 +126,7 @@ def game_hash
     }
   }
 end
-  
+
 def num_points_scored(player_name)
    game_hash.each do |keys,inner_keys|
       inner_keys[:player].each do|a|
