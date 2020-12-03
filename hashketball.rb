@@ -135,3 +135,12 @@ def num_points_scored(player_name)
    end
   end
 end
+
+def num_points_scored(player_name)
+   game_hash.each do |keys,inner_keys|
+      inner_keys[:players].each do|a|
+
+        return a[:shoe] if a[:player_name]==player_name
+   end
+  end
+end
