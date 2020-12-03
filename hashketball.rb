@@ -146,8 +146,8 @@ def shoe_size(player_name)
 end
 def team_colors (team_names)
  game_hash.each do |keys,values|
-   binding.pry
-   return values[:colors]
-
+    values[:team_names].each do|a|
+       a[:colors]
+    end
  end
 end
