@@ -149,4 +149,4 @@ def team_colors (team_names)
    return values[:colors] if values ==values[:team_names] end
  end
 end
-end
+
