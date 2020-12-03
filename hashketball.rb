@@ -188,4 +188,5 @@ game_hash.each do |a,b|
     end
   end
 end
+r
 end
