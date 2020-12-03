@@ -126,30 +126,5 @@ def game_hash
     }
   }
 end
-def get_players
- name=game_hash.keys.map do |players|
-   game_hash[players][:players]
- end
- name.flatten
-end
 
-def num_points_scored(player_name)
- fp = get_players.find do |player|
-   player[:player_name] == player_name
-   end
-   fp[:points]
-end
-
-def shoe_size(player_name)
- fp = get_players.find do |player|
-   player[:player_name] == player_name
-   end
-   fp[:shoe]
-end
-
-def player_numbers(player_name)
-  fp = get_players.find do |player|
-    player[:player_name] == player_name
-    end
-    fp[:number]
-end
+def 
