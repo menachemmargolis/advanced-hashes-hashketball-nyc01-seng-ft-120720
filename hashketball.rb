@@ -153,6 +153,3 @@ def player_numbers(player_name)
     end
     fp[:number]
 end
-
-
-
