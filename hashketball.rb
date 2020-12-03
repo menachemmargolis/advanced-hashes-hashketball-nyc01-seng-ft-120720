@@ -183,8 +183,8 @@ game_hash.each do |a,b|
   b[:players].each do |player|
     s=player[:shoe]
     if s>b
-      b=s
-      r=player[:rebounds]
+      b = 
+      r = player[:rebounds]
     end
   end
 end
