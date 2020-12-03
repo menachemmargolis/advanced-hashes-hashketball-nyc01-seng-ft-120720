@@ -154,18 +154,5 @@ def player_numbers(player_name)
     fp[:number]
 end
 
-def team_colors(team)
-  game_hash.each do |key,value|
-    if value[:team_name] == team
-      return value[:colors].map
-    end
-  end
-end
 
-def team_names (team)
-  game_hash.each do |key,value|
-    if value[:team_name] == team
-      return value[:team_name].map
-    end
-  end
-end
+
